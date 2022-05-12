@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  web:
+    image: gitlab.iquer.tools:5010/nxms/docker/hello-world
+    ports:
+      - "8082:8000"
+  redis:
+    image: redis:alpine
